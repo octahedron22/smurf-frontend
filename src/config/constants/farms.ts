@@ -4,149 +4,46 @@ import { FarmConfig, QuoteToken } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 0,
-    lpSymbol: 'WIKI-BUSD LP v2',
+    lpSymbol: 'SMURF-BUSD LP v2',
     lpAddresses: {
       97: '',
       56: '0xE0323b608ef2D08af20eC3238Bfd8E38359A4B2C',
     },
-    tokenSymbol: 'WIKI',
+    tokenSymbol: 'SMURF',
     tokenAddresses: {
       97: '',     
-      56: '0x372a61EBEB3fF5f36f603eAa4dF890b18d36065D',
+      56: '0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
   {
     pid: 1,
-    lpSymbol: 'WIKI-BNB LP v2',
+    lpSymbol: 'SMURF-BNB LP v2',
     lpAddresses: {
       97: '',
       56: '0x221d6349788909b9e996246091aa41b275793207',      
     },
-    tokenSymbol: 'WIKI',
+    tokenSymbol: 'SMURF',
     tokenAddresses: {
       97: '',
-      56: '0x372a61EBEB3fF5f36f603eAa4dF890b18d36065D',
+      56: '0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 24,
-    
-    lpSymbol: 'WIKI-SHRIMP LP v2',
-    lpAddresses: {
-      97: '',
-      56: '0x586c6b6c80c74b75a2c0d898749b1f59d6a9f88f', // WIKI-SHRIMP LP
-    },
-    tokenSymbol: 'SHRIMP',
-    tokenAddresses: {
-      97: '',
-      56: '0x62ee12e4fe74a815302750913c3c796bca23e40e',
-    },
-    quoteTokenSymbol: QuoteToken.WIKI,
-    quoteTokenAdresses: contracts.cake,
-  },
-
-  {
-    pid: 25,    
-    
-    lpSymbol: 'sWIKI-BUSD LP v2',
-    lpAddresses: {
-      97: '',
-      56: '0xc3c29259dfb2b3d66d4e2e9b057015b3e1ea1d5e', // sWIKI-BUSD LP
-    },
-    tokenSymbol: 'sWIKI',
-    tokenAddresses: {
-      97: '',     
-      56: '0x8bde81029eda5e7381794c0df7ed65e6bb9005e0',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-
-  {
-    pid: 18,
-    
-    lpSymbol: 'WIKI-JAGUAR LP v2',
-    lpAddresses: {
-      97: '',
-      56: '0x9F6669c552878876dB865065fEDDF7b313Ae9dE1', // WIKI-JAGUAR LP
-    },
-    tokenSymbol: 'JAGUAR',
-    tokenAddresses: {
-      97: '',
-      56: '0x4a3524936db5c310d852266033589d3f6f30ba5d',
-    },
-    quoteTokenSymbol: QuoteToken.WIKI,
-    quoteTokenAdresses: contracts.cake,
-  },
-  
-  {
-    pid: 19,
-    
-    lpSymbol: 'WIKI-PANTHER LP v2',
-    lpAddresses: {
-      97: '',
-      56: '0x9cd5ea61e38379819b1a508fe2c841ec3cb6d068', // WIKI-PANTHER LP
-    },
-    tokenSymbol: 'PANTHER',
-    tokenAddresses: {
-      97: '',
-      56: '0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
-    },
-    quoteTokenSymbol: QuoteToken.WIKI,
-    quoteTokenAdresses: contracts.cake,
-  },
-  {
-    pid: 20,
-    
-    lpSymbol: 'WIKI-SLION LP v2',
-    lpAddresses: {
-      97: '',
-      56: '0xa32ee3c6a3b46b71dce03dc729d60d9a8fd81993', // WIKI-SLION LP
-    },
-    tokenSymbol: 'SLION',
-    tokenAddresses: {
-      97: '',
-      56: '0xb9fcb5b2935d57a8568b6309b3093200482c448d',
-    },
-    quoteTokenSymbol: QuoteToken.WIKI,
-    quoteTokenAdresses: contracts.cake,
-  },
-
-  {
-    pid: 2,
-    
+    pid: 2,    
     isTokenOnly: true,
-    lpSymbol: 'WIKI',
+    lpSymbol: 'SMURF',
     lpAddresses: {
       97: '',
-      56: '0xE0323b608ef2D08af20eC3238Bfd8E38359A4B2C', // WIKI-BUSD
+      56: '0xE0323b608ef2D08af20eC3238Bfd8E38359A4B2C', // SMURF-BUSD
     },
-    tokenSymbol: 'WIKI',
+    tokenSymbol: 'SMURF',
     tokenAddresses: {
       97: '',
-      56: '0x372a61EBEB3fF5f36f603eAa4dF890b18d36065D',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-
-  {
-    pid: 26,
-    
-    isTokenOnly: true,
-    lpSymbol: 'sWIKI',
-    lpAddresses: {
-      97: '',
-      56: '0xc3c29259dfb2b3d66d4e2e9b057015b3e1ea1d5e', // sWIKI-BUSD
-    },
-    tokenSymbol: 'sWIKI',
-    tokenAddresses: {
-      97: '',
-      56: '0x8bde81029eda5e7381794c0df7ed65e6bb9005e0',
+      56: '0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,

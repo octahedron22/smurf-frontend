@@ -1,6 +1,6 @@
 export default {
   cake: {
-    56: '0x372a61ebeb3ff5f36f603eaa4df890b18d36065d', // WIKI
+    56: '0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c', // WIKI
     97: '',
   },
   xblzd: {
@@ -8,7 +8,7 @@ export default {
     97: '',
   },
   smurf: {
-    56: '0x372a61ebeb3ff5f36f603eaa4df890b18d36065d',
+    56: '0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
     97: '',
   },
 

@@ -73,7 +73,7 @@ const FarmedStakingCard = () => {
             type: 'ERC20',
             options: {
               address: '0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
-              symbol: 'BLZD',
+              symbol: 'SMURF',
               decimals: '18',
               image:
                 'https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/farms/smurf.png',

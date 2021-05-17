@@ -41,10 +41,10 @@ const BlzdStats = () => {
     <StyledBlzdStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'BLZD Stats')}
+          {TranslateString(534, 'SMURF Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{TranslateString(536, 'Total BLZD Supply')}</Text>
+          <Text fontSize="14px">{TranslateString(536, 'Total SMURF Supply')}</Text>
           {blzdSupply && <CardValue fontSize="14px" value={blzdSupply} decimals={0} />}
         </Row>
         <Row>
@@ -52,11 +52,11 @@ const BlzdStats = () => {
           <CardValue fontSize="14px" value={getBalanceNumber(marketCap)} decimals={0} prefix="$" />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(538, 'Total BLZD Burned')}</Text>
+          <Text fontSize="14px">{TranslateString(538, 'Total SMURF Burned')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New BLZD/block')}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New SMURF/Block')}</Text>
           <Text bold fontSize="14px">
             {blzdPerBlock}
           </Text>

@@ -14,12 +14,12 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x372a61ebeb3ff5f36f603eaa4df890b18d36065d',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
         
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x372a61ebeb3ff5f36f603eaa4df890b18d36065d',
+        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
         
       },
     ],
@@ -31,28 +31,47 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Pools',
-    icon: 'PoolIcon',
+    icon: 'IfoIcon',
     href: '/caves',
   },
   {
     label: 'Village',
-    icon: 'PoolIcon',
+    icon: 'GroupsIcon',
     href: '/pools',
   },
+
+  {
+    label: 'SMURF Price-Chart',
+    icon:  'InfoIcon',
+    href: 'https://dex.guru/token/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c-bsc',
+    
+  },
+
+
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
-      {
-        label: 'SMURF Price-Chart',
-        href: 'https://dex.guru/token/0x372a61ebeb3ff5f36f603eaa4df890b18d36065d-bsc',
-        
-      },
+     
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x372a61ebeb3ff5f36f603eaa4df890b18d36065d',
+        href: 'https://pancakeswap.info/token/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
         
       },
+
+      {
+        label: 'Twitter',
+        href: 'https://twitter.com/SmurfMoneyBSC',
+        
+      },
+
+      {
+        label: 'Telegram',
+        href: 'https://t.me/SmurfMoneyBSC',
+        
+      },
+
+
     ],
   },
 
