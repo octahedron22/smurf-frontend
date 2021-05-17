@@ -7,23 +7,19 @@ const config: MenuEntry[] = [
     icon: 'HomeIcon',
     href: '/',
   },
-  // {
-  //  label: 'BLZD to xBLZD',
-  //  icon: 'TradeIcon',
-  //  href: '/xBLZD',
-  // },
+ 
   {
     label: 'Trade',
     icon: 'TradeIcon',
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x372a61ebeb3ff5f36f603eaa4df890b18d36065d',
         
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
+        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x372a61ebeb3ff5f36f603eaa4df890b18d36065d',
         
       },
     ],
@@ -39,7 +35,7 @@ const config: MenuEntry[] = [
     href: '/caves',
   },
   {
-    label: 'Blizzard',
+    label: 'Village',
     icon: 'PoolIcon',
     href: '/pools',
   },
@@ -49,12 +45,12 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'SMURF Price-Chart',
-        href: 'https://dex.guru/token/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c-bsc',
+        href: 'https://dex.guru/token/0x372a61ebeb3ff5f36f603eaa4df890b18d36065d-bsc',
         
       },
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
+        href: 'https://pancakeswap.info/token/0x372a61ebeb3ff5f36f603eaa4df890b18d36065d',
         
       },
     ],

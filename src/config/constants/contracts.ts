@@ -1,14 +1,19 @@
 export default {
   cake: {
-    56: '0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
+    56: '0x372a61ebeb3ff5f36f603eaa4df890b18d36065d', // WIKI
     97: '',
   },
   xblzd: {
-    56: '0x367CdDA266ADa588d380C7B970244434e4Dde790',
+    56: '0x367CdDA266ADa588d380C7B970244434e4Dde790', // old blzd
     97: '',
   },
+  smurf: {
+    56: '0x372a61ebeb3ff5f36f603eaa4df890b18d36065d',
+    97: '',
+  },
+
   masterChef: {
-    56: '0x740A1c61A17BC7F498e33251dAADc80ECB27E05A',
+    56: '0x740a1c61a17bc7f498e33251daadc80ecb27e05a',  // WIKI MASTER
     97: '',
   },
   wbnb: {

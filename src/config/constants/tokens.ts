@@ -1,16 +1,28 @@
 const tokens = {
+
   bnb: {
     symbol: 'BNB',
     projectLink: 'https://www.binance.com/',
   },
+
+ // smurf: {
+ //  symbol: 'SMURF',
+ //   address: {
+ //     56: '0x372a61ebeb3ff5f36f603eaa4df890b18d36065d',
+ //     97: '',
+ //   },
+
+ //   decimals: 18,
+ //   projectLink: 'https://SMURF.money/',
+
   blzd: {
-    symbol: 'BLZD',
-    address: {
-      56: '0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
-      97: '0x1977ECbdE6832920c3554E238deDFfBC5ed996c9',
-    },
-    decimals: 18,
-    projectLink: 'https://SMURF.money/',
+      symbol: 'BLZD',
+      address: {
+        56: '0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
+        97: '',
+      },
+      decimals: 18,
+      projectLink: 'https://blizzard.money/',
   },
   cake: {
     symbol: 'CAKE',
