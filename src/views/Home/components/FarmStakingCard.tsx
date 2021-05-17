@@ -10,7 +10,7 @@ import BlzdHarvestBalance from './BlzdHarvestBalance'
 import BlzdWalletBalance from './BlzdWalletBalance'
 
 const StyledFarmStakingCard = styled(Card)`
-  background-image: url('https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/2a.png');
+  background-image: url('https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/smurf/2a.png');
   background-size: 256px;
   background-repeat: no-repeat;
   background-position: top right;
@@ -76,7 +76,7 @@ const FarmedStakingCard = () => {
               symbol: 'BLZD',
               decimals: '18',
               image:
-                'https://github.com/octahedron22/smurf-frontend/blob/master/public/images/farms/smurf.png',
+                'https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/farms/smurf.png',
             },
           },
         })
@@ -98,7 +98,7 @@ const FarmedStakingCard = () => {
         </Heading>
         <TokenImageWrapper>
           <CardImage
-            src="https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/2.png"
+            src="https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/smurf/2.png"
             alt="smurf logo"
             width={64}
             height={64}
@@ -108,7 +108,7 @@ const FarmedStakingCard = () => {
             <img
               style={{ marginLeft: 8 }}
               width={16}
-              src="https://github.com/octahedron22/smurf-frontend/blob/master/public/images/wallet/metamask.png"
+              src="https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/wallet/metamask.png"
               alt="metamask logo"
             />
           </Button>

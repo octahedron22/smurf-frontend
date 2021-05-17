@@ -35,7 +35,7 @@ const CardHeading: React.FC<ExpandableSectionProps> = ({ lpLabel, multiplier, fa
         </Flex>
       </Flex>
       <Image
-        src={`https://github.com/octahedron22/smurf-frontend/blob/master/public/images/farms/${farmImage}.png`}
+        src={`https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/farms/${farmImage}.png`}
         alt={tokenSymbol}
         width={64}
         height={64}

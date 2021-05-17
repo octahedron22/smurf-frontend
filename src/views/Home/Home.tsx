@@ -11,7 +11,7 @@ import TotalValueLockedCard from './components/TotalValueLockedCard'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/3.png');
+  background-image: url('https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/smurf/3.png');
   background-size: 250px;
   background-repeat: no-repeat;
   background-position: top center;
@@ -24,8 +24,8 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/3.png'),
-      url('https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/3b.png');
+    background-image: url('https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/smurf/3.png'),
+      url('https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/smurf/3b.png');
     background-size: 260px;
     background-position: left center, right center;
     height: 165px;
@@ -65,7 +65,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="primary">
           {TranslateString(576, 'SMURF.MONEY')}
         </Heading>
-        <Text>{TranslateString(578, 'The best DEFI app on Binance Smart Chain.')}</Text>
+        <Text>{TranslateString(578, '🧙 The best Place on Binnce Smart Chain to earn Smurfs!')}</Text>
       </Hero>
       <div>
         <Cards>

@@ -16,7 +16,7 @@ const NftPreview = () => {
           <div key={nft.name}>
             <Card>
               <Image
-                src={`https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/nfts/${nft.blurImage}`}
+                src={`https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/nfts/${nft.blurImage}`}
                 alt={nft.name}
               />
               <CardBody>

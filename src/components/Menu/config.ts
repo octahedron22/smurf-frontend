@@ -1,4 +1,5 @@
-import { MenuEntry } from '@blzd-dev/uikit'
+
+import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
@@ -6,24 +7,24 @@ const config: MenuEntry[] = [
     icon: 'HomeIcon',
     href: '/',
   },
-  {
-    label: 'BLZD to xBLZD',
-    icon: 'TradeIcon',
-    href: '/xBLZD',
-  },
+  // {
+  //  label: 'BLZD to xBLZD',
+  //  icon: 'TradeIcon',
+  //  href: '/xBLZD',
+  // },
   {
     label: 'Trade',
     icon: 'TradeIcon',
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
-        external: true,
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
+        
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
-        external: true,
+        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
+        
       },
     ],
   },
@@ -33,8 +34,8 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Caves',
-    icon: 'CaveIcon',
+    label: 'Pools',
+    icon: 'PoolIcon',
     href: '/caves',
   },
   {
@@ -47,30 +48,18 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
+        label: 'SMURF Price-Chart',
+        href: 'https://dex.guru/token/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c-bsc',
+        
+      },
+      {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
-        external: true,
+        href: 'https://pancakeswap.info/token/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
+        
       },
     ],
   },
-  {
-    label: 'Github',
-    icon: 'GithubIcon',
-    href: 'https://github.com/blzd-dev',
-    external: true,
-  },
-  {
-    label: 'Blog',
-    icon: 'MediumIcon',
-    href: 'https://blizzardmoney.medium.com',
-    external: true,
-  },
-  {
-    label: 'Audit',
-    icon: 'AuditIcon',
-    external: true,
-    href: 'https://github.com/blzd-dev/blzd-frontend/blob/master/public/files/gemzAudit.pdf',
-  },
+
 ]
 
 export default config

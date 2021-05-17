@@ -41,7 +41,7 @@ const Farm: React.FC = () => {
         </div>
         <div style={{ textAlign: 'right' }}>
           <img
-            src="https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurfstakepage.png"
+            src="https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/smurfstakepage.png"
             alt="SMURF Pool icon"
           />
         </div>

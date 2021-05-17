@@ -104,7 +104,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </Route>
         </FlexLayout>
       </div>
-      <Image src="https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/9.png" alt="illustration" width={1900} height={600} responsive />
+      <Image src="https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/smurf/9.png" alt="illustration" width={1900} height={600} responsive />
     </Page>
   )
 }

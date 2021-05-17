@@ -13,7 +13,7 @@ import BlzdWinnings from './BlzdWinnings'
 import LotteryJackpot from './LotteryJackpot'
 
 const StyledLotteryCard = styled(Card)`
-  background-image: url('https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/ticket-bg.svg');
+  background-image: url('');
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
@@ -70,7 +70,7 @@ const FarmedStakingCard = () => {
           {TranslateString(550, 'Your Lottery Winnings')}
         </Heading>
         <CardImage
-          src="https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/ticket.svg"
+          src=""
           alt="cake logo"
           width={64}
           height={64}

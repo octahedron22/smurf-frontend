@@ -41,7 +41,7 @@ const Coming: React.FC = () => {
       <div style={{ padding: '24px' }}>
         <CardTitle>{TranslateString(414, 'Your Project?')} </CardTitle>
         <Image
-          src="https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/hero.png"
+          src="https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/smurf/hero.png"
           width={64}
           height={64}
           alt="Your project here"

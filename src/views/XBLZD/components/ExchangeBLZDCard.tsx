@@ -90,7 +90,7 @@ const ExchangeBLZDCard = () => {
         </Heading>
         <RowBetween>
           <CardImage
-            src="https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/2.png"
+            src="https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/smurf/2.png"
             alt="smurf logo"
             width={64}
             height={64}
@@ -103,7 +103,7 @@ const ExchangeBLZDCard = () => {
         <Divider />
         <RowBetween>
           <CardImage
-            src="https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/2.png"
+            src="https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/smurf/2.png"
             alt="smurf logo"
             width={64}
             height={64}

@@ -38,7 +38,7 @@ const NoPrizesContent: React.FC = () => {
   return (
     <Wrapper>
       <Image
-        src="https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/no-prize.svg"
+        src="https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/no-prize.svg"
         alt="no prizes won"
       />
       <TextWrapper>
