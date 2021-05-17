@@ -11,7 +11,7 @@ import TotalValueLockedCard from './components/TotalValueLockedCard'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('https://www.smurf.money/images/blzd/3.png');
+  background-image: url('https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/3.png');
   background-size: 250px;
   background-repeat: no-repeat;
   background-position: top center;
@@ -24,8 +24,8 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('https://www.smurf.money/images/blzd/3.png'),
-      url('https://www.smurf.money/images/blzd/3b.png');
+    background-image: url('https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/3.png'),
+      url('https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/3b.png');
     background-size: 260px;
     background-position: left center, right center;
     height: 165px;

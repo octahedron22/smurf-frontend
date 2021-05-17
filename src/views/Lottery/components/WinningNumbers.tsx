@@ -40,7 +40,7 @@ const WinningNumbers: React.FC = () => {
               <RabbitBox>
                 <CardImageFirst>
                   <Image
-                    src="https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/sign bunny 1@2x.png"
+                    src=""
                     alt="Number 1"
                     width={200}
                     height={150}
@@ -51,7 +51,7 @@ const WinningNumbers: React.FC = () => {
               <RabbitBox>
                 <CardImage style={{ marginLeft: '-1.2em' }}>
                   <Image
-                    src="https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/sign bunny 2@2x.png"
+                    src=""
                     alt="Number 2"
                     width={200}
                     height={150}
@@ -62,7 +62,7 @@ const WinningNumbers: React.FC = () => {
               <RabbitBox>
                 <CardImage style={{ marginLeft: '-1.2em' }}>
                   <Image
-                    src="https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/sign bunny 3@2x.png"
+                    src=""
                     alt="Number 3"
                     width={200}
                     height={150}
@@ -73,7 +73,7 @@ const WinningNumbers: React.FC = () => {
               <RabbitBox>
                 <CardImage style={{ marginLeft: '-1.2em' }}>
                   <Image
-                    src="https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/sign bunny 4@2x.png"
+                    src=""
                     alt="Number 4"
                     width={200}
                     height={150}
@@ -86,7 +86,7 @@ const WinningNumbers: React.FC = () => {
               <RabbitBoxSmall>
                 <CardImageFirst>
                   <Image
-                    src="https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/sign bunny 1@2x.png"
+                    src=""
                     alt="Number 1"
                     width={200}
                     height={150}
@@ -97,7 +97,7 @@ const WinningNumbers: React.FC = () => {
               <RabbitBoxSmall>
                 <CardImage style={{ marginLeft: '-1.2em' }}>
                   <Image
-                    src="https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/sign bunny 2@2x.png"
+                    src=""
                     alt="Number 2"
                     width={200}
                     height={150}
@@ -108,7 +108,7 @@ const WinningNumbers: React.FC = () => {
               <RabbitBoxSmall>
                 <CardImage style={{ marginLeft: '-1.2em' }}>
                   <Image
-                    src="https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/sign bunny 3@2x.png"
+                    src=""
                     alt="Number 3"
                     width={200}
                     height={150}
@@ -119,7 +119,7 @@ const WinningNumbers: React.FC = () => {
               <RabbitBoxSmall>
                 <CardImage style={{ marginLeft: '-1.2em' }}>
                   <Image
-                    src="https://raw.githubusercontent.com/blzd-dev/blzd-frontend/master/public/images/sign bunny 4@2x.png"
+                    src=""
                     alt="Number 4"
                     width={200}
                     height={150}

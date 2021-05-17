@@ -34,7 +34,7 @@ const PageLoader: React.FC = () => {
       <LogoIcon>
         <img
           style={{ height: 86 }}
-          src="https://www.smurf.money/images/blzd/logo.png"
+          src="https://github.com/octahedron22/smurf-frontend/blob/master/public/images/smurf/logo.png"
           alt="logo"
         />
       </LogoIcon>
