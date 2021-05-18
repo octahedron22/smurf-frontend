@@ -31,7 +31,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Pools',
-    icon: 'LogoIcon',
+    icon: 'IfoIcon',
     href: '/caves',
   },
   {
@@ -48,25 +48,21 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Info',
-    icon: 'SunIcon',
-    items: [
-     
+    icon: 'LanguageIcon',
+    items: [     
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
-        
+        href: 'https://pancakeswap.info/token/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',        
       },
 
       {
         label: 'Twitter',
-        href: 'https://twitter.com/SmurfMoneyBSC',
-        
+        href: 'https://twitter.com/SmurfMoneyBSC',        
       },
 
       {
         label: 'Telegram',
-        href: 'https://t.me/SmurfMoneyBSC',
-        
+        href: 'https://t.me/SmurfMoneyBSC',        
       },
 
 

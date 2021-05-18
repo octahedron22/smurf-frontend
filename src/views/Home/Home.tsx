@@ -65,7 +65,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="primary">
           {TranslateString(576, 'SMURF.MONEY')}
         </Heading>
-        <Text>{TranslateString(578, '🧙 The best Place on Binnce Smart Chain to earn Smurfs!')}</Text>
+        <Text>{TranslateString(578, 'The best Place on Binance Smart Chain to earn Smurfs! 🧙')}</Text>
       </Hero>
       <div>
         <Cards>
