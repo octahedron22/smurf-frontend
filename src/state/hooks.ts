@@ -85,8 +85,8 @@ export const usePriceBnbBusd = (): BigNumber => {
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
 }
 
-export const usePriceBlzdBusd = (): BigNumber => {
-  const pid = 1 // BLZD-BUSD LP
+export const usePriceSmurfBusd = (): BigNumber => {
+  const pid = 0 // Smurf-BUSD LP
   const farm = useFarmFromPid(pid)
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
 }
@@ -94,7 +94,7 @@ export const usePriceBlzdBusd = (): BigNumber => {
 export const useTotalValue = (): BigNumber => {
   const farms = useFarms()
   const bnbPrice = usePriceBnbBusd()
-  const blzdPrice = usePriceBlzdBusd()
+  const smurfPrice = usePriceSmurfBusd()
   let value = new BigNumber(0)
   for (let i = 0; i < farms.length; i++) {
     const farm = farms[i]
@@ -102,8 +102,8 @@ export const useTotalValue = (): BigNumber => {
       let val
       if (farm.quoteTokenSymbol === QuoteToken.BNB) {
         val = bnbPrice.times(farm.lpTotalInQuoteToken)
-      } else if (farm.quoteTokenSymbol === QuoteToken.BLZD) {
-        val = blzdPrice.times(farm.lpTotalInQuoteToken)
+      } else if (farm.quoteTokenSymbol === QuoteToken.SMURF) {
+        val = smurfPrice.times(farm.lpTotalInQuoteToken)
       } else {
         val = farm.lpTotalInQuoteToken
       }

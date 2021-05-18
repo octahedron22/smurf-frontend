@@ -5,7 +5,7 @@ import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import FarmStakingCard from './components/FarmStakingCard'
 // import LotteryCard from './components/LotteryCard'
-import BlzdStats from './components/BlzdStats'
+import SmurfStats from './components/SmurfStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 // import TwitterCard from './components/TwitterCard'
 
@@ -70,7 +70,7 @@ const Home: React.FC = () => {
       <div>
         <Cards>
           <FarmStakingCard />
-          <BlzdStats />
+          <SmurfStats />
         </Cards>
       </div>
       <TotalValueLockedCard />

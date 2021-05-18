@@ -8,7 +8,7 @@ import useTokenBalance from 'hooks/useTokenBalance'
 import { getCakeAddress } from 'utils/addressHelpers'
 import { useXBlzdAllowance } from 'hooks/useAllowance'
 import useExchangeXBlzd from 'hooks/useExchangeXBlzd'
-import BlzdWalletBalance from './BlzdWalletBalance'
+import SmurfWalletBalance from './SmurfWalletBalance'
 
 const StyledFarmStakingCard = styled(Card)``
 
@@ -46,7 +46,7 @@ const Actions = styled.div`
 
 const ExchangeBLZDCard = () => {
   const { account } = useWallet()
-  const blzdBalance = useTokenBalance(getCakeAddress())
+  const smurfBalance = useTokenBalance(getCakeAddress())
   const [requestedApproval, setRequestedApproval] = useState(false)
   const allowance = useXBlzdAllowance()
   const onApprove = useXBlzdApprove()
@@ -68,9 +68,9 @@ const ExchangeBLZDCard = () => {
       <Button
         style={{ width: '100%' }}
         mt="8px"
-        disabled={blzdBalance.isLessThanOrEqualTo(0)}
+        disabled={smurfBalance.isLessThanOrEqualTo(0)}
         onClick={async () => {
-          await onExchange(blzdBalance.toString())
+          await onExchange(smurfBalance.toString())
         }}
       >
         Exchange
@@ -97,7 +97,7 @@ const ExchangeBLZDCard = () => {
           />
           <Block>
             <Label>BLZD in Wallet</Label>
-            <BlzdWalletBalance />
+            <SmurfWalletBalance />
           </Block>
         </RowBetween>
         <Divider />
@@ -110,7 +110,7 @@ const ExchangeBLZDCard = () => {
           />
           <Block>
             <Label>xBLZD</Label>
-            <BlzdWalletBalance />
+            <SmurfWalletBalance />
           </Block>
         </RowBetween>
         <Actions>{account ? renderApprovalOrExchangeButton() : <UnlockButton fullWidth />}</Actions>

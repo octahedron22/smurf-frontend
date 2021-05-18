@@ -1,9 +1,9 @@
 [
   {
     "inputs": [
-      { "internalType": "contract BlzdToken", "name": "_blzd", "type": "address" },
+      { "internalType": "contract SmurfToken", "name": "_smurf", "type": "address" },
       { "internalType": "address", "name": "_devaddr", "type": "address" },
-      { "internalType": "uint256", "name": "_blzdPerBlock", "type": "uint256" },
+      { "internalType": "uint256", "name": "_smurfPerBlock", "type": "uint256" },
       { "internalType": "uint256", "name": "_startBlock", "type": "uint256" }
     ],
     "stateMutability": "nonpayable",
@@ -69,7 +69,7 @@
     "anonymous": false,
     "inputs": [
       { "indexed": true, "internalType": "address", "name": "user", "type": "address" },
-      { "indexed": false, "internalType": "uint256", "name": "blzdPerBlock", "type": "uint256" }
+      { "indexed": false, "internalType": "uint256", "name": "smurfPerBlock", "type": "uint256" }
     ],
     "name": "UpdateEmissionRate",
     "type": "event"
@@ -105,14 +105,14 @@
   },
   {
     "inputs": [],
-    "name": "blzd",
-    "outputs": [{ "internalType": "contract BlzdToken", "name": "", "type": "address" }],
+    "name": "smurf",
+    "outputs": [{ "internalType": "contract SmurfToken", "name": "", "type": "address" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
-    "name": "blzdPerBlock",
+    "name": "smurfPerBlock",
     "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
@@ -185,7 +185,7 @@
       { "internalType": "uint256", "name": "_pid", "type": "uint256" },
       { "internalType": "address", "name": "_user", "type": "address" }
     ],
-    "name": "pendingBlzd",
+    "name": "pendingSmurf",
     "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
@@ -204,7 +204,7 @@
       { "internalType": "contract IBEP20", "name": "lpToken", "type": "address" },
       { "internalType": "uint256", "name": "allocPoint", "type": "uint256" },
       { "internalType": "uint256", "name": "lastRewardBlock", "type": "uint256" },
-      { "internalType": "uint256", "name": "accBlzdPerShare", "type": "uint256" },
+      { "internalType": "uint256", "name": "accSmurfPerShare", "type": "uint256" },
       { "internalType": "uint16", "name": "depositFeeBP", "type": "uint16" }
     ],
     "stateMutability": "view",

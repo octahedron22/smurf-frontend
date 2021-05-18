@@ -6,8 +6,8 @@ import useI18n from 'hooks/useI18n'
 import { useAllHarvest } from 'hooks/useHarvest'
 import useFarmsWithBalance from 'hooks/useFarmsWithBalance'
 import UnlockButton from 'components/UnlockButton'
-import BlzdHarvestBalance from './BlzdHarvestBalance'
-import BlzdWalletBalance from './BlzdWalletBalance'
+import SmurfHarvestBalance from './SmurfHarvestBalance'
+import SmurfWalletBalance from './SmurfWalletBalance'
 
 const StyledFarmStakingCard = styled(Card)`
   background-image: url('https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/smurf/2a.png');
@@ -60,7 +60,7 @@ const FarmedStakingCard = () => {
     }
   }, [onReward])
 
-  const addWatchBlzdToken = useCallback(async () => {
+  const addWatchSmurfToken = useCallback(async () => {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     const provider = window.ethereum
@@ -103,7 +103,7 @@ const FarmedStakingCard = () => {
             width={64}
             height={64}
           />
-          <Button onClick={addWatchBlzdToken} scale="sm">
+          <Button onClick={addWatchSmurfToken} scale="sm">
             +{' '}
             <img
               style={{ marginLeft: 8 }}
@@ -114,18 +114,18 @@ const FarmedStakingCard = () => {
           </Button>
         </TokenImageWrapper>
         <Block>
-          <BlzdHarvestBalance />
-          <Label>{TranslateString(544, 'BLZD to Harvest')}</Label>
+          <SmurfHarvestBalance />
+          <Label>{TranslateString(544, 'SMURF to Harvest')}</Label>
         </Block>
         <Block>
-          <BlzdWalletBalance />
-          <Label>{TranslateString(546, 'BLZD in Wallet')}</Label>
+          <SmurfWalletBalance />
+          <Label>{TranslateString(546, 'SMURF in Wallet')}</Label>
         </Block>
         <Actions>
           {account ? (
             <Button id="harvest-all" disabled={balancesWithValue.length <= 0 || pendingTx} onClick={harvestAllFarms}>
               {pendingTx
-                ? TranslateString(548, 'Collecting BLZD')
+                ? TranslateString(548, 'Collecting SMURF')
                 : TranslateString(999, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (

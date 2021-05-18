@@ -8,7 +8,7 @@ import { Image, Heading } from '@blzd-dev/uikit'
 import { BLOCKS_PER_YEAR } from 'config'
 import FlexLayout from 'components/layout/Flex'
 import Page from 'components/layout/Page'
-import { useFarms, usePriceBnbBusd, usePriceBlzdBusd } from 'state/hooks'
+import { useFarms, usePriceBnbBusd, usePriceSmurfBusd } from 'state/hooks'
 import useRefresh from 'hooks/useRefresh'
 import { fetchFarmUserDataAsync } from 'state/actions'
 import { QuoteToken } from 'config/constants/types'
@@ -25,7 +25,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
   const { path } = useRouteMatch()
   const TranslateString = useI18n()
   const farmsLP = useFarms()
-  const cakePrice = usePriceBlzdBusd()
+  const cakePrice = usePriceSmurfBusd()
   const bnbPrice = usePriceBnbBusd()
   const { account, ethereum }: { account: string; ethereum: provider } = useWallet()
   const { tokenMode } = farmsProps
@@ -51,7 +51,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         // if (!farm.tokenAmount || !farm.lpTotalInQuoteToken || !farm.lpTotalInQuoteToken) {
         //   return farm
         // }
-        const cakeRewardPerBlock = new BigNumber(farm.blzdPerBlock || 1)
+        const cakeRewardPerBlock = new BigNumber(farm.smurfPerBlock || 1)
           .times(new BigNumber(farm.poolWeight))
           .div(new BigNumber(10).pow(18))
         const cakeRewardPerYear = cakeRewardPerBlock.times(BLOCKS_PER_YEAR)

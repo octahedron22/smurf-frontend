@@ -1,18 +1,18 @@
 import { useEffect } from 'react'
-import { usePriceBlzdBusd } from 'state/hooks'
+import { usePriceSmurfBusd } from 'state/hooks'
 
 const useGetDocumentTitlePrice = () => {
-  const blzdPriceUsd = usePriceBlzdBusd()
+  const smurfPriceUsd = usePriceSmurfBusd()
 
-  const blzdPriceUsdString = blzdPriceUsd.eq(0)
+  const smurfPriceUsdString = smurfPriceUsd.eq(0)
     ? ''
-    : ` - $${blzdPriceUsd.toNumber().toLocaleString(undefined, {
+    : ` - $${smurfPriceUsd.toNumber().toLocaleString(undefined, {
         minimumFractionDigits: 3,
         maximumFractionDigits: 3,
       })}`
 
   useEffect(() => {
-    document.title = `SMURF.MONEY${blzdPriceUsdString}`
-  }, [blzdPriceUsdString])
+    document.title = `SMURF.MONEY${smurfPriceUsdString}`
+  }, [smurfPriceUsdString])
 }
 export default useGetDocumentTitlePrice
