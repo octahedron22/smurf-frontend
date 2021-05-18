@@ -1,4 +1,4 @@
-# ❄️ Blizzard Frontend
+# 🧙 Smurf Money Frontend
 
 This project contains the main features of the Blizzard application.
 
