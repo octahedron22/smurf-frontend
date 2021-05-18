@@ -31,18 +31,18 @@ const Farm: React.FC = () => {
       <Hero>
         <div>
           <Heading as="h1" size="xxl" mb="16px">
-            {TranslateString(282, 'BLZD Pool')}
+            {TranslateString(282, 'SMURF Village')}
           </Heading>
           <ul>
-            <li>{TranslateString(580, 'Stake BLZD to earn tokens.')}</li>
-            <li>{TranslateString(404, 'You can unstake at any time.')}</li>
+            <li>{TranslateString(580, 'Stake SMURF to earn BUSD, BNB and more...')}</li>            
             <li>{TranslateString(406, 'Rewards are calculated per block.')}</li>
+            <li>{TranslateString(0, '...coming soon, stay tuned...')}</li>
           </ul>
         </div>
         <div style={{ textAlign: 'right' }}>
           <img
             src="https://raw.githubusercontent.com/octahedron22/smurf-frontend/master/public/images/smurfstakepage.png"
-            alt="SMURF Pool icon"
+            alt="SMURF Village icon"
           />
         </div>
       </Hero>

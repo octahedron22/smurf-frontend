@@ -31,7 +31,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Pools',
-    icon: 'IfoIcon',
+    icon: 'LogoIcon',
     href: '/caves',
   },
   {
@@ -41,16 +41,14 @@ const config: MenuEntry[] = [
   },
 
   {
-    label: 'SMURF Price-Chart',
+    label: 'SMURF Chart',
     icon:  'InfoIcon',
     href: 'https://dex.guru/token/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c-bsc',
     
   },
-
-
   {
     label: 'Info',
-    icon: 'InfoIcon',
+    icon: 'SunIcon',
     items: [
      
       {
