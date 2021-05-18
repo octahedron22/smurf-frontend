@@ -72,7 +72,7 @@ const FarmedStakingCard = () => {
           params: {
             type: 'ERC20',
             options: {
-              address: '0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
+              address: '0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c',
               symbol: 'SMURF',
               decimals: '18',
               image:

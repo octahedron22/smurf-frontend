@@ -1,6 +1,6 @@
 export default {
   cake: {
-    56: '0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c', // WIKI
+    56: '0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c', // SMURF
     97: '',
   },
   xblzd: {
@@ -13,7 +13,7 @@ export default {
   },
 
   masterChef: {
-    56: '0x740a1c61a17bc7f498e33251daadc80ecb27e05a',  // WIKI MASTER
+    56: '0x37232F075BFEe4943c5b14c2e459dEa21C3ACdA4',  // Smurf MASTER
     97: '',
   },
   wbnb: {

@@ -7,7 +7,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SMURF-BUSD LP v2',
     lpAddresses: {
       97: '',
-      56: '0xE0323b608ef2D08af20eC3238Bfd8E38359A4B2C',
+      56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
     },
     tokenSymbol: 'SMURF',
     tokenAddresses: {
@@ -22,7 +22,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SMURF-BNB LP v2',
     lpAddresses: {
       97: '',
-      56: '0x221d6349788909b9e996246091aa41b275793207',      
+      56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',      
     },
     tokenSymbol: 'SMURF',
     tokenAddresses: {
@@ -38,7 +38,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SMURF',
     lpAddresses: {
       97: '',
-      56: '0xE0323b608ef2D08af20eC3238Bfd8E38359A4B2C', // SMURF-BUSD
+      56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f', // SMURF-BUSD
     },
     tokenSymbol: 'SMURF',
     tokenAddresses: {
