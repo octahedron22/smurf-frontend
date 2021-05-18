@@ -258,7 +258,7 @@ quoteTokenAdresses: contracts.busd,
 },
 
 {
-  pid: 15,
+  pid: 21,
   
   isTokenOnly: true,
   lpSymbol: 'BUSD',
@@ -275,7 +275,7 @@ quoteTokenAdresses: contracts.busd,
   quoteTokenAdresses: contracts.busd,
 },
 {
-  pid: 16,
+  pid: 15,
   
   isTokenOnly: true,
   lpSymbol: 'BNB',
@@ -293,7 +293,7 @@ quoteTokenAdresses: contracts.busd,
 },
 
 {
-  pid: 17,
+  pid: 16,
   
   isTokenOnly: true,
   lpSymbol: 'USDT',
@@ -312,7 +312,7 @@ quoteTokenAdresses: contracts.busd,
 
 
 {
-  pid: 18,
+  pid: 17,
   
   isTokenOnly: true,
   lpSymbol: 'DAI',
@@ -332,7 +332,7 @@ quoteTokenAdresses: contracts.busd,
 
 
 {
-  pid: 19,
+  pid: 18,
   
   isTokenOnly: true,
   lpSymbol: 'BTCB',
@@ -350,7 +350,7 @@ quoteTokenAdresses: contracts.busd,
 },
 
 {
-  pid: 20,
+  pid: 19,
   
   isTokenOnly: true,
   lpSymbol: 'ETH',
@@ -368,7 +368,7 @@ quoteTokenAdresses: contracts.busd,
 },
 
 {
-  pid: 21,
+  pid: 20,
   
   isTokenOnly: true,
   lpSymbol: 'CAKE',
