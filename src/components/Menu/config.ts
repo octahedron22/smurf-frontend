@@ -46,6 +46,14 @@ const config: MenuEntry[] = [
     href: 'https://dex.guru/token/0x0812EEBCd567a26b53B34900dC412Fe7Fc8e557c-bsc',
     
   },
+
+  {
+    label: 'Gitbook',
+    icon:  'GithubIcon',
+    href: 'https://bscsmurfmoney.gitbook.io/smurfmoney/',
+    
+  },
+
   {
     label: 'Info',
     icon: 'LanguageIcon',
